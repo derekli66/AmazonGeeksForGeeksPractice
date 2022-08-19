@@ -13,20 +13,13 @@
 		6531F56128AFA506007738DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6531F55F28AFA506007738DA /* Main.storyboard */; };
 		6531F56328AFA50E007738DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6531F56228AFA50E007738DA /* Assets.xcassets */; };
 		6531F56628AFA50E007738DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6531F56428AFA50E007738DA /* LaunchScreen.storyboard */; };
-		6531F57128AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F57028AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.swift */; };
-		6531F57B28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F57A28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITests.swift */; };
-		6531F57D28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F57C28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITestsLaunchTests.swift */; };
+		6531F58B28AFA579007738DA /* Print_all_permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F58A28AFA579007738DA /* Print_all_permutations.swift */; };
+		6531F58D28AFAA89007738DA /* PrintAllPermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F58C28AFAA89007738DA /* PrintAllPermutationsTests.swift */; };
+		6531F58E28AFAA9E007738DA /* Print_all_permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F58A28AFA579007738DA /* Print_all_permutations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6531F56D28AFA50E007738DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6531F54E28AFA506007738DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6531F55528AFA506007738DA;
-			remoteInfo = AmazonGeeksForGeeksPractice;
-		};
-		6531F57728AFA50E007738DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6531F54E28AFA506007738DA /* Project object */;
 			proxyType = 1;
@@ -45,10 +38,8 @@
 		6531F56528AFA50E007738DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6531F56728AFA50E007738DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6531F56C28AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonGeeksForGeeksPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6531F57028AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonGeeksForGeeksPracticeTests.swift; sourceTree = "<group>"; };
-		6531F57628AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonGeeksForGeeksPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6531F57A28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonGeeksForGeeksPracticeUITests.swift; sourceTree = "<group>"; };
-		6531F57C28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonGeeksForGeeksPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6531F58A28AFA579007738DA /* Print_all_permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print_all_permutations.swift; sourceTree = "<group>"; };
+		6531F58C28AFAA89007738DA /* PrintAllPermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintAllPermutationsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +57,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6531F57328AFA50E007738DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6531F54D28AFA506007738DA = {
 			isa = PBXGroup;
 			children = (
+				6531F58928AFA51C007738DA /* Recursion_and_Backtracking */,
 				6531F55828AFA506007738DA /* AmazonGeeksForGeeksPractice */,
 				6531F56F28AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests */,
-				6531F57928AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests */,
 				6531F55728AFA506007738DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +75,6 @@
 			children = (
 				6531F55628AFA506007738DA /* AmazonGeeksForGeeksPractice.app */,
 				6531F56C28AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.xctest */,
-				6531F57628AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,18 +96,17 @@
 		6531F56F28AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6531F57028AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.swift */,
+				6531F58C28AFAA89007738DA /* PrintAllPermutationsTests.swift */,
 			);
 			path = AmazonGeeksForGeeksPracticeTests;
 			sourceTree = "<group>";
 		};
-		6531F57928AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests */ = {
+		6531F58928AFA51C007738DA /* Recursion_and_Backtracking */ = {
 			isa = PBXGroup;
 			children = (
-				6531F57A28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITests.swift */,
-				6531F57C28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITestsLaunchTests.swift */,
+				6531F58A28AFA579007738DA /* Print_all_permutations.swift */,
 			);
-			path = AmazonGeeksForGeeksPracticeUITests;
+			path = Recursion_and_Backtracking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +147,6 @@
 			productReference = 6531F56C28AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6531F57528AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6531F58628AFA50F007738DA /* Build configuration list for PBXNativeTarget "AmazonGeeksForGeeksPracticeUITests" */;
-			buildPhases = (
-				6531F57228AFA50E007738DA /* Sources */,
-				6531F57328AFA50E007738DA /* Frameworks */,
-				6531F57428AFA50E007738DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6531F57828AFA50E007738DA /* PBXTargetDependency */,
-			);
-			name = AmazonGeeksForGeeksPracticeUITests;
-			productName = AmazonGeeksForGeeksPracticeUITests;
-			productReference = 6531F57628AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +161,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					6531F56B28AFA50E007738DA = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 6531F55528AFA506007738DA;
-					};
-					6531F57528AFA50E007738DA = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 6531F55528AFA506007738DA;
 					};
@@ -221,7 +181,6 @@
 			targets = (
 				6531F55528AFA506007738DA /* AmazonGeeksForGeeksPractice */,
 				6531F56B28AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests */,
-				6531F57528AFA50E007738DA /* AmazonGeeksForGeeksPracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +203,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6531F57428AFA50E007738DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,6 +212,7 @@
 			files = (
 				6531F55E28AFA506007738DA /* ViewController.swift in Sources */,
 				6531F55A28AFA506007738DA /* AppDelegate.swift in Sources */,
+				6531F58B28AFA579007738DA /* Print_all_permutations.swift in Sources */,
 				6531F55C28AFA506007738DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,16 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6531F57128AFA50E007738DA /* AmazonGeeksForGeeksPracticeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6531F57228AFA50E007738DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6531F57B28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITests.swift in Sources */,
-				6531F57D28AFA50F007738DA /* AmazonGeeksForGeeksPracticeUITestsLaunchTests.swift in Sources */,
+				6531F58D28AFAA89007738DA /* PrintAllPermutationsTests.swift in Sources */,
+				6531F58E28AFAA9E007738DA /* Print_all_permutations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +233,6 @@
 			isa = PBXTargetDependency;
 			target = 6531F55528AFA506007738DA /* AmazonGeeksForGeeksPractice */;
 			targetProxy = 6531F56D28AFA50E007738DA /* PBXContainerItemProxy */;
-		};
-		6531F57828AFA50E007738DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6531F55528AFA506007738DA /* AmazonGeeksForGeeksPractice */;
-			targetProxy = 6531F57728AFA50E007738DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,42 +466,6 @@
 			};
 			name = Release;
 		};
-		6531F58728AFA50F007738DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SKLFZ4533Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.positivegrid.AmazonGeeksForGeeksPracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AmazonGeeksForGeeksPractice;
-			};
-			name = Debug;
-		};
-		6531F58828AFA50F007738DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SKLFZ4533Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.positivegrid.AmazonGeeksForGeeksPracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AmazonGeeksForGeeksPractice;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +492,6 @@
 			buildConfigurations = (
 				6531F58428AFA50F007738DA /* Debug */,
 				6531F58528AFA50F007738DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6531F58628AFA50F007738DA /* Build configuration list for PBXNativeTarget "AmazonGeeksForGeeksPracticeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6531F58728AFA50F007738DA /* Debug */,
-				6531F58828AFA50F007738DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
