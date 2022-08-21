@@ -19,14 +19,6 @@ class ValidateIPAddressTests: XCTestCase {
     private var ip3 = "0000.0000.0000.0000"
     private var ip4 = "1.1.1.1"
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
     func testCase1() throws {
         let validator = ValidateIPAddress()
         let valid = validator.validate(case1)

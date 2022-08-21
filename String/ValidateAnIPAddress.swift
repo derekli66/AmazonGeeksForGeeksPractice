@@ -7,6 +7,13 @@
 
 import Foundation
 
+/**
+ https://www.geeksforgeeks.org/program-to-validate-an-ip-address/
+ 
+ Write a program to Validate an IPv4 Address.
+ According to Wikipedia, IPv4 addresses are canonically represented in dot-decimal notation, which consists of four decimal numbers, each ranging from 0 to 255, separated by dots, e.g., 172.16.254.1
+ */
+
 class ValidateIPAddress {
     func validate(_ address: String) -> Bool {
         let nums = address.components(separatedBy:".")

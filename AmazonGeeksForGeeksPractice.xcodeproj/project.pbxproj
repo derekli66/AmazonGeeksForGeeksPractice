@@ -19,6 +19,9 @@
 		6531F59128B00743007738DA /* ValidateAnIPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F59028B00743007738DA /* ValidateAnIPAddress.swift */; };
 		6531F59328B25B55007738DA /* ValidateIPAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F59228B25B55007738DA /* ValidateIPAddressTests.swift */; };
 		6531F59428B25BD5007738DA /* ValidateAnIPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F59028B00743007738DA /* ValidateAnIPAddress.swift */; };
+		6531F59728B25DF8007738DA /* LargestSumContiguousSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F59628B25DF8007738DA /* LargestSumContiguousSubarray.swift */; };
+		6531F59828B25DF8007738DA /* LargestSumContiguousSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F59628B25DF8007738DA /* LargestSumContiguousSubarray.swift */; };
+		6531F59A28B25ED5007738DA /* LargestSumContiguousSubarrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6531F59928B25ED5007738DA /* LargestSumContiguousSubarrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		6531F58C28AFAA89007738DA /* PrintAllPermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintAllPermutationsTests.swift; sourceTree = "<group>"; };
 		6531F59028B00743007738DA /* ValidateAnIPAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAnIPAddress.swift; sourceTree = "<group>"; };
 		6531F59228B25B55007738DA /* ValidateIPAddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateIPAddressTests.swift; sourceTree = "<group>"; };
+		6531F59628B25DF8007738DA /* LargestSumContiguousSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestSumContiguousSubarray.swift; sourceTree = "<group>"; };
+		6531F59928B25ED5007738DA /* LargestSumContiguousSubarrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestSumContiguousSubarrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 		6531F54D28AFA506007738DA = {
 			isa = PBXGroup;
 			children = (
+				6531F59528B25DD0007738DA /* Array */,
 				6531F58F28B00720007738DA /* String */,
 				6531F58928AFA51C007738DA /* Recursion_and_Backtracking */,
 				6531F55828AFA506007738DA /* AmazonGeeksForGeeksPractice */,
@@ -104,6 +110,7 @@
 			children = (
 				6531F58C28AFAA89007738DA /* PrintAllPermutationsTests.swift */,
 				6531F59228B25B55007738DA /* ValidateIPAddressTests.swift */,
+				6531F59928B25ED5007738DA /* LargestSumContiguousSubarrayTests.swift */,
 			);
 			path = AmazonGeeksForGeeksPracticeTests;
 			sourceTree = "<group>";
@@ -122,6 +129,14 @@
 				6531F59028B00743007738DA /* ValidateAnIPAddress.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		6531F59528B25DD0007738DA /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				6531F59628B25DF8007738DA /* LargestSumContiguousSubarray.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6531F55E28AFA506007738DA /* ViewController.swift in Sources */,
+				6531F59728B25DF8007738DA /* LargestSumContiguousSubarray.swift in Sources */,
 				6531F55A28AFA506007738DA /* AppDelegate.swift in Sources */,
 				6531F58B28AFA579007738DA /* Print_all_permutations.swift in Sources */,
 				6531F55C28AFA506007738DA /* SceneDelegate.swift in Sources */,
@@ -237,10 +253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6531F59828B25DF8007738DA /* LargestSumContiguousSubarray.swift in Sources */,
 				6531F59428B25BD5007738DA /* ValidateAnIPAddress.swift in Sources */,
 				6531F58D28AFAA89007738DA /* PrintAllPermutationsTests.swift in Sources */,
 				6531F59328B25B55007738DA /* ValidateIPAddressTests.swift in Sources */,
 				6531F58E28AFAA9E007738DA /* Print_all_permutations.swift in Sources */,
+				6531F59A28B25ED5007738DA /* LargestSumContiguousSubarrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
